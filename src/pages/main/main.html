@@ -1,0 +1,91 @@
+<!-- 这里还是一个标准的BUI页面 -->
+<div class="bui-page">
+    <header class="bui-bar">
+        <div class="bui-bar-left">
+            <!-- 左边有图标示例 -->
+            <!-- <div class="bui-btn"><i class="icon-menu"></i></div> -->
+        </div>
+        <div class="bui-bar-main">微信</div>
+        <!-- <div class="bui-bar-right">
+    
+            <a class="bui-btn"><i class="icon-search"></i></a>
+        
+            <a class="bui-btn"><i class="icon-plus"></i></a>
+        </div> -->
+        <div class="bui-bar-right" style="overflow:visible;">
+            <div id="search" class="bui-dropdown" >
+                <div class="bui-btn bui-box-center" href="pages/chat/chat.html">
+                        <i class="icon-search"></i>
+                </div>
+            </div>
+            <div id="more" class="bui-dropdown"  change="false">
+                <div class="bui-btn bui-box-center">
+                    <i class="icon-plus"></i>
+                </div>
+                <ul class="bui-list round">
+                    <li class="bui-btn bui-box">
+                        <i class="icon-jiahao">&#xe61d;</i>
+                        <div class="span1">发起群聊</div>
+                    </li>
+                    <li class="bui-btn bui-box">
+                        <i class="icon-jiahao">&#xe660;</i>
+                        <div class="span1">添加朋友</div>
+                    </li>
+                    <li class="bui-btn bui-box">
+                        <i class="icon-jiahao">&#xe611;</i>
+                        <div class="span1">扫一扫</div>
+                    </li>
+                    <li class="bui-btn bui-box">
+                        <i class="icon-jiahao">&#xe657;</i>
+                        <div class="span1">收付款</div>
+                    </li>
+                    <li class="bui-btn bui-box">
+                        <i class="icon-jiahao">&#xe60e;</i>
+                        <div class="span1">帮助与反馈</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div id="tabDynamic" class="bui-tab">
+            <div class="bui-tab-main">
+                <ul>
+                    <li>
+                        <!-- 首页 -->
+                    </li>
+                    <li>
+                        <!-- 通讯录 -->
+                    </li>
+                    <li>
+                        <!-- 发现 -->
+                    </li>
+                    <li>
+                        <!-- 我 -->
+                    </li>
+                </ul>
+        
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul id="tabDynamicNav" class="bui-nav">
+            <li class="bui-btn bui-box-vertical active" href="pages/main/home.html">
+                <i class="icon-weixin">&#xe678;<span class="bui-badges">6</span></i>
+                <div class="span1">微信</div>
+            </li>
+            <li class="bui-btn bui-box-vertical" href="pages/main/book.html">
+                <i class="icon-contact">&#xe65b;</i>
+                <div class="span1">通讯录</div>
+            </li>
+            <li class="bui-btn bui-box-vertical" href="pages/main/friends.html">
+                <i class="icon">&#xe662;<span class="bui-badges">2</span></i>
+                <div class="span1">发现</div>
+            </li>
+            <li class="bui-btn bui-box-vertical" href="pages/main/user.html">
+                <i class="icon-mine">&#xe67b;</i>
+                <div class="span1">我</div>
+            </li>
+        </ul>
+    </footer>
+</div>

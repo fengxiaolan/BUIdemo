@@ -1,0 +1,155 @@
+<style type="text/css">
+    /* 公共 */
+    .bui-scroll .bui-scroll-main {
+        background: #f5f5f5;
+    }
+    .tab-home{
+        height: 100%;
+    }
+    /* 使用过的小程序 */
+    .swipedown .bui-nav {
+        -webkit-box-align: middle;
+        box-align: middle;
+        height: 100%;
+    }
+    .swipedown .bui-nav .bui-btn{
+        background: none;
+        border:0;
+    }
+    .swipedown .bui-nav .bui-btn .icon-app{
+        width: .72rem;
+        height: .72rem;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-bottom: .2rem;
+    }
+
+    /* 消息列表 */
+    .page-list{
+        height: 100%;
+        overflow-y: auto;
+    }
+    .face-group {
+        width: .72rem;
+        height: .72rem;
+        background: #d6ddd6;
+        margin-right: .2rem;
+        position: relative;
+    }
+    .face-group .bui-badges {
+        position: absolute;
+        width:.16rem;
+        height:.16rem;
+        -webkit-border-radius: .08rem;
+        border-radius: .08rem;
+        right: -.14rem;
+        top: -.06rem;
+    }
+    .face-group .bui-box-center {
+        margin: 0;
+        line-height: .24rem;
+    }
+    .face-group .bui-box-center img {
+        max-width: 90%;
+        height: .24rem;
+        line-height: .24rem;
+    }
+    .face-group > img {
+        max-width: 100%;
+    }
+</style>
+<div class="tab-home">
+    <!-- 下拉使用过的小程序 -->
+    <div class="swipedown">
+            <ul class="bui-nav">
+                <li class="bui-btn bui-box-vertical" href="pages/main/book.html">
+                    <i class="icon-app icon-app01"><img src="images/icon-01.png" alt="跳一跳"></i>
+                    <div class="span1">跳一跳</div>
+                </li>
+                <li class="bui-btn bui-box-vertical" href="pages/main/user.html">
+                    <i class="icon-app icon-app02"><img src="images/icon-02.png" alt="摩拜单车"></i>
+                    <div class="span1">摩拜单车</div>
+                </li>
+            </ul>
+    </div>
+    <!-- 消息列表 -->
+    <div class="page-list">
+        <ul class="bui-list"> 
+            <li class="bui-btn bui-box" href="pages/chat/chat.html">
+                <div class="face-group">
+                    <img src="images/face1.png" alt="">
+                    <span class="bui-badges">6</span>
+                </div>
+                <div class="span1">
+                    <h3 class="item-title">招商银行信用卡</h3>
+                    <p class="item-text">交易提醒</p>
+                </div>
+                <div class="list-right">
+                    <div class="time">13:10</div>
+                </div>
+            </li>
+            <li class="bui-btn bui-box" href="pages/chat/chat.html">
+                <div class="face-group">
+                    <img src="images/face1.png" alt="">
+                    <span class="bui-badges">6</span>
+                </div>
+                <div class="span1">
+                    <h3 class="item-title">招商银行信用卡</h3>
+                    <p class="item-text">交易提醒</p>
+                </div>
+                <div class="list-right">
+                    <div class="time">13:10</div>
+                </div>
+            </li>
+            <li class="bui-btn bui-box" href="pages/chat/chat.html">
+                <div class="face-group">
+                    <img src="images/face1.png" alt="">
+                    <span class="bui-badges">6</span>
+                </div>
+                <div class="span1">
+                    <h3 class="item-title">招商银行信用卡</h3>
+                    <p class="item-text">交易提醒</p>
+                </div>
+                <div class="list-right">
+                    <div class="time">13:10</div>
+                </div>
+            </li>
+            <li class="bui-btn bui-box" href="pages/chat/chat.html">
+                <div class="face-group">
+                    <img src="images/face1.png" alt="">
+                    <span class="bui-badges">6</span>
+                </div>
+                <div class="span1">
+                    <h3 class="item-title">招商银行信用卡</h3>
+                    <p class="item-text">交易提醒</p>
+                </div>
+                <div class="list-right">
+                    <div class="time">13:10</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="uiTabScroll" class="bui-scroll">
+            <div class="bui-scroll-head"></div>
+            <div class="bui-scroll-main">
+                <ul class="bui-list news-list" >
+                    <!-- 新闻多行模板 -->
+                    <!-- <li class="bui-btn bui-box-align-top">
+                        <div class="thumbnail"><img src="images/Personal3-img-contact.png" alt=""></div>
+                        <div class="span1">
+                            <h3 class="item-title">列表标题列表标题列表标题列表标题列表标</h3>
+                            <div class="item-text bui-box">
+                                <div class="span1">发帖用户</div>
+                                <span class="time"><i class="icon-">&#xe643;</i>23</span>
+                                <span class="time"><i class="icon-">&#xe680;</i>495</span>
+                                <span class="time"><i class="icon-">&#xe641;</i>28</span>
+                            </div>
+                        </div>            
+                    </li> -->
+                </ul>
+            </div>
+            <div class="bui-scroll-foot"></div>
+    </div>
+</div>

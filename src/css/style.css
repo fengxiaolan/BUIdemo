@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* 头部导航栏 */
+header.bui-bar {
+    background: #393a3e;
+}
+#search{
+    float: left;
+    margin-right: 12px;
+}
+#more{
+    float: left;
+}
+
+/* 底部导航栏 */
+.bui-nav > .active {
+    color: #45c018;
+    background: #fff;
+}
+.bui-bar .bui-bar-left, .bui-bar .bui-bar-right{
+    width: auto;
+}
+.bui-bar .bui-bar-left {
+    width: auto;
+    padding-right: .2rem;
+}
+.bui-bar .bui-bar-main{
+    text-align: left;
+}
+footer .bui-nav .bui-btn i {
+    font-size: .4rem;
+    margin-bottom: .05rem;
+}
+
