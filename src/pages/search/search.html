@@ -1,0 +1,88 @@
+
+<style>
+    header .bui-bar{
+        background: transparent !important;
+    }
+    .search-bar-main input{
+        border: none;
+        background: transparent;
+        width: 98%;
+        border-bottom: .01rem solid #ccc;
+    }
+    .bui-panel .panel-head{
+        border: 0;
+        padding: .2rem 0;
+        text-align: center;
+        color: #666;
+        font-size: .3rem;
+        margin: auto;
+    }
+
+    .bui-panel{
+        background: transparent !important;
+    }
+    .search-list{
+        width: 90%;
+        margin: auto;
+    }
+    .search-list .span4{
+       width: 33.3%;
+       float: left;
+       text-align: center;
+       margin: .2rem 0;
+       border-right: .01rem solid red;
+       
+    }
+    .search-list .span4:nth-child(3n){
+        border-right: none;
+    } 
+    
+</style>
+
+<div class="bui-page">
+    <header class="search-bar">
+        <div class="bui-bar">
+            <div class="bui-bar-left bui-bar-text">
+                <a class="bui-btn btn-back">
+                    <i class="icon-back"></i>
+                </a>
+            </div>
+            <div class="bui-bar-main search-bar-main">
+                <input type="search" value="" placeholder="搜索"/>
+            </div>
+            <div class="bui-bar-right bui-bar-text">
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="bui-panel  lists-panel">
+            <div class="panel-head">
+                搜索指定内容
+            </div>
+            <div class="bui-panel-main">
+                <div class="search-list">
+                    <div class="span4">
+                        <span class="lists-tag">朋友圈</span>
+                    </div>
+                    <div class="span4">
+                        <span class="lists-tag">文章</span>
+                    </div>
+                    <div class="span4">
+                        <span class="lists-tag">公众号</span>
+                    </div>
+                    <div class="span4">
+                        <span class="lists-tag">小程序</span>
+                    </div>
+                    <div class="span4">
+                        <span class="lists-tag">音乐</span>
+                    </div>
+                    <div class="span4">
+                        <span class="lists-tag">表情</span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

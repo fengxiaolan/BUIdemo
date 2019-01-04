@@ -1,0 +1,73 @@
+<style type="text/css">
+    .personal-info{
+        margin-top: 0;
+        margin-bottom: .2rem;
+    }
+    .personal-info .bui-btn {
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+    }
+    .personal-info .icon {
+        margin-right: 0;
+    }
+    .contact-list{
+        border-top: none;
+        margin-bottom: .2rem;
+        padding: 0 0.2rem;
+        background-color: #ffffff;
+    }
+    .contact-list .bui-btn{
+        padding-left: 0;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+    }
+    .contact-list li:last-child{
+        border-bottom: none;
+    }
+</style>
+
+<div class="bui-bookdetail">
+	<header class="bui-bar">
+        <div class="bui-bar-left">
+            <a class="bui-btn" onclick="bui.back();"><i class="icon-back"></i></a>
+        </div>
+        <div class="bui-bar-main">通讯录</div>
+        <div class="bui-bar-right">
+        </div>
+	</header>
+	<main>
+        <ul class="bui-list personal-info">
+            <li class="bui-btn bui-box">
+                <div class="thumbnail"><img src="images/face1.png" alt=""></div>
+                <div class="span1">
+                    <h3 class="item-title">区柏荣</h3>
+                    <p class="item-text">计算机与信息工程学院</p>
+                </div>
+                <i class="icon">&#xe62a;</i>
+            </li>
+        </ul>
+        <ul class="bui-list contact-list">
+            <li class="bui-btn bui-box clearactive">
+                <label class="bui-label">兴趣爱好</label>
+                <div class="span1">
+                    <div class="bui-value">郭亮</div>
+                </div>
+            </li>
+            <li class="bui-btn bui-box clearactive">
+                <label class="bui-label">邮箱</label>
+                <div class="span1">
+                    <div class="bui-value">guol@bingosoft.net</div>
+                </div>
+            </li>
+            <li class="bui-btn bui-box clearactive">
+                <label class="bui-label">工作电话</label>
+                <div class="span1">
+                    <div class="bui-value">13800138000</div>
+                </div>
+            </li>
+        </ul>
+        <div class="container-xy">
+            <div class="bui-btn round primary">去聊天</div>
+        </div>
+	</main>
+</div>

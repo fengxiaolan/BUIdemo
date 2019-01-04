@@ -51,6 +51,8 @@ loader.define(function(require,exports,module) {
         })
         // 2: 监听加载后的事件
         tab.on("to",function (index) {
+            uiMask.hide();
+            uiDropdownMore.hide();
             switch(index){
                 case 0:
                 loader.require(["pages/main/home"],function (mod) {
